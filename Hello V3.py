@@ -12,6 +12,6 @@ list = [ver1,ver2,ver3]
     # get array length
 listLength = len(list)
     # get rendom number from list length [0:listLength]
-randomNum = random.randint(0,len(list))
+randomNum = random.randint(0,len(list)-1)
     # print result
 print(list[randomNum])
