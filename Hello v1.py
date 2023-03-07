@@ -7,3 +7,4 @@ name = name.title()
 # print result with different code but as the same
 print("Hello", name + ",nice to meet you")
 print(f"Hello {name},nice to meet you")
+# problems: what if the user will imput extra spaces between words for example "test      test"
